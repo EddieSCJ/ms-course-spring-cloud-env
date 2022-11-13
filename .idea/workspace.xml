@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-worker" afterDir="false" />
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="add idea path to gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/hr-api-gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/hr-api-gateway-zuul">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hr-config-server">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/hr-eureka-server">
@@ -32,6 +42,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/hr-api-gateway-zuul">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -42,7 +55,22 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-eureka-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-api-gateway" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="gke_star-wars-api-kotlin_us-central1_starwars-cluster" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,8 +83,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "/Users/edcleidson_junior/IdeaProjects/ms-course",
@@ -64,12 +98,13 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.hr-api-gateway-zuul [build]">
+  <component name="RunManager" selected="Spring Boot.HrApiGatewayApplication">
     <configuration name="hr-api-gateway-zuul [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -112,9 +147,52 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="HrApiGatewayApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hrapigatewayzuul.HrApiGatewayApplicationKt" />
+      <module name="hr-api-gateway-zuul.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hr-api-gateway-zuul.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrapigatewayzuul.HrApiGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrapigatewayzuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrApiGatewayZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hr-api-gateway-zuul.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrapigatewayzuul.HrApiGatewayZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hr-config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrconfigserver.HrConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="jbr-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="hr-eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hreurekaserver.HrEurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hreurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,14 +205,29 @@
       </method>
     </configuration>
     <configuration name="HrWorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="hr-worker.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrworker.HrWorkerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.hr-api-gateway-zuul [build]" />
+      <item itemvalue="Gradle.hr-api-gateway-zuul [clean]" />
+      <item itemvalue="Kotlin.HrApiGatewayApplicationKt" />
+      <item itemvalue="Spring Boot.HrConfigServerApplication" />
+      <item itemvalue="Spring Boot.HrApiGatewayZuulApplication" />
+      <item itemvalue="Spring Boot.HrPayrollApplication" />
+      <item itemvalue="Spring Boot.HrWorkerApplication" />
+      <item itemvalue="Spring Boot.HrApiGatewayApplication" />
+      <item itemvalue="Spring Boot.HrEurekaServerApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.HrApiGatewayApplication" />
+        <item itemvalue="Spring Boot.HrEurekaServerApplication" />
+        <item itemvalue="Kotlin.HrApiGatewayApplicationKt" />
         <item itemvalue="Gradle.hr-api-gateway-zuul [build]" />
         <item itemvalue="Gradle.hr-api-gateway-zuul [clean]" />
       </list>
@@ -144,13 +237,50 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="" />
+      <changelist id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="" />
       <created>1668309766637</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668309766637</updated>
       <workItem from="1668309768924" duration="61000" />
-      <workItem from="1668309864002" duration="409000" />
+      <workItem from="1668309864002" duration="9618000" />
     </task>
+    <task id="LOCAL-00001" summary="creating api gateway starter config">
+      <created>1668318282947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668318282947</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adjusting properties">
+      <created>1668318311089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668318311089</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add gitignore">
+      <created>1668318351264</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668318351264</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add idea path to gitignore">
+      <created>1668318374962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668318374962</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add idea path to gitignore">
+      <created>1668318435416</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668318435416</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,5 +296,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="creating api gateway starter config" />
+    <MESSAGE value="adjusting properties" />
+    <MESSAGE value="add gitignore" />
+    <MESSAGE value="add idea path to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add idea path to gitignore" />
   </component>
 </project>
