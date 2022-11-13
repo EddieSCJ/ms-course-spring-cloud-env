@@ -1,0 +1,12 @@
+[submodule "hr-payroll"]
+	path = hr-payroll
+	url = https://github.com/EddieSCJ/hr-payroll.git
+[submodule "hr-eureka-server"]
+	path = hr-eureka-server
+	url = https://github.com/EddieSCJ/hr-eureka-server.git
+[submodule "hr-worker"]
+	path = hr-worker
+	url = https://github.com/EddieSCJ/hr-worker.git
+[submodule "hr-api-gateway-zuul"]
+	path = hr-api-gateway-zuul
+	url = https://github.com/EddieSCJ/hr-api-gateway-zuul.git
