@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="update hr api gateway config">
-      <change afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="adding new submodule">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/kotlin/com/hrconfigserver/HrConfigServerApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/kotlin/com/hrconfigserver/HrConfigServerApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/kotlin/com/hrworker/handler/WorkerHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/kotlin/com/hrworker/handler/WorkerHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -15,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +60,47 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-api-gateway" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-worker" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="gke_star-wars-api-kotlin_us-central1_starwars-cluster" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="6" end1="8" start2="6" end2="8" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="9" end1="10" start2="9" end2="12" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="17" end1="17" start2="19" end2="20" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="59" end1="60" start2="62" end2="66" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="64" end1="64" start2="70" end2="71" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="69" end1="69" start2="76" end2="78" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="76" end1="76" start2="85" end2="104" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="105" end1="106" start2="133" end2="136" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="108" end1="109" start2="138" end2="146" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="247" end1="248" start2="284" end2="286" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="298" end1="299" start2="336" end2="372" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+        <range start1="321" end1="321" start2="394" end2="396" changelist="b6625af3-2bda-4820-92bb-00ea564f58a3" />
+        <range start1="322" end1="324" start2="397" end2="400" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,10 +131,19 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "2f466c5db7902998b2f90c8af3575d09",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.HrConfigServerApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HrWorkerApplication">
     <configuration name="hr-api-gateway-zuul [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -245,7 +282,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668309766637</updated>
       <workItem from="1668309768924" duration="61000" />
-      <workItem from="1668309864002" duration="11427000" />
+      <workItem from="1668309864002" duration="12989000" />
+      <workItem from="1670046007780" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="creating api gateway starter config">
       <created>1668318282947</created>
@@ -296,7 +334,42 @@
       <option name="project" value="LOCAL" />
       <updated>1668322902431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hr config configs">
+      <created>1668322946545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668322946545</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add config server module">
+      <created>1668323099225</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668323099225</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add configs setup">
+      <created>1670047991362</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670047991362</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add configs setup">
+      <created>1670048031904</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670048031904</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding new submodule">
+      <created>1670048300168</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670048300168</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +393,8 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add idea path to gitignore" />
     <MESSAGE value="add config server module" />
-    <MESSAGE value="update hr api gateway config" />
-    <option name="LAST_COMMIT_MESSAGE" value="update hr api gateway config" />
+    <MESSAGE value="add configs setup" />
+    <MESSAGE value="adding new submodule" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding new submodule" />
   </component>
 </project>
