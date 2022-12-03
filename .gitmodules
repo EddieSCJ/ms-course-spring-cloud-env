@@ -13,3 +13,6 @@
 [submodule "hr-config-server"]
 	path = hr-config-server
 	url = https://github.com/EddieSCJ/hr-config-server.git
+[submodule "hr-api-gateway"]
+	path = hr-api-gateway
+	url = https://github.com/EddieSCJ/hr-api-gateway
