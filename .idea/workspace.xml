@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="creating hr-user">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/HrUserApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/HrUserApplication.kt" afterDir="false" />
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="configuring the api gateway and hr-user project">
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user" afterDir="false" />
     </list>
     <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="ignored" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +53,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-user" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-api-gateway" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -293,7 +289,7 @@
       <workItem from="1668309768924" duration="61000" />
       <workItem from="1668309864002" duration="12989000" />
       <workItem from="1670046007780" duration="4753000" />
-      <workItem from="1670112843838" duration="1740000" />
+      <workItem from="1670112843838" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="creating api gateway starter config">
       <created>1668318282947</created>
@@ -414,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670114627702</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="configuring the api gateway and hr-user project">
+      <created>1670115230536</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670115230536</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +448,7 @@
     <MESSAGE value="using actuator for runtime config refresh" />
     <MESSAGE value="use username and password for prod making the project &#10;where the config is private" />
     <MESSAGE value="creating hr-user" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating hr-user" />
+    <MESSAGE value="configuring the api gateway and hr-user project" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuring the api gateway and hr-user project" />
   </component>
 </project>
