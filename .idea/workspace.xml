@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="implementing database entities">
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/config/Configs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/repository/UserRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/resource/UserResource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/data.sql" afterDir="false" />
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="hr-oauth with feign client">
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/OAuth2AuthenticationManagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/OAuth2Config.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/OAuthTokenConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/ResourceServerConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/config/AuthorizationServerConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/config/Configs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/config/SecurityConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/entities/Role.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/entities/Role.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/entities/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/entities/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/HrApiGatewayApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/HrApiGatewayApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/UserResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/UserResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/model/Role.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/model/Role.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/model/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/service/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/service/UserService.kt" afterDir="false" />
     </list>
     <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="ignored" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +79,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-user" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-api-gateway" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -93,6 +101,21 @@
                 </list>
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/hr-user" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1670132405" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1670132404" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/hr-oauth" />
             </RecentBranchesForRepo>
           </list>
         </option>
@@ -139,7 +162,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "/Users/edcleidson_junior/IdeaProjects/ms-course/hr-user/src/main/resources",
+    "last_opened_file_path": "/Users/edcleidson_junior/IdeaProjects/ms-course/hr-oauth/src/main/java/com/hroauth/model",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -159,10 +182,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hr-oauth/src/main/java/com/hroauth/model" />
       <recent name="$PROJECT_DIR$/hr-user/src/main/resources" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.hruser.config" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.hrapigatewayzuul.config" />
+      <recent name="com.hroauth.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,7 +200,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'hr-eureka-server'">
+  <component name="RunManager" selected="Gradle.hr-oauth [dependencies]">
     <configuration name="Tests in 'hr-eureka-server'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,10 +222,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="hr-api-gateway-zuul [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hr-oauth [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hr-api-gateway-zuul" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hr-oauth" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -205,7 +233,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -258,6 +286,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrOauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hr-oauth.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hroauth.HrOauthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hr-payroll.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrpayroll.HrPayrollApplication" />
@@ -282,8 +317,9 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Tests in 'hr-eureka-server'" />
-      <item itemvalue="Gradle.hr-api-gateway-zuul [build]" />
+      <item itemvalue="Gradle.hr-oauth [dependencies]" />
       <item itemvalue="Kotlin.HrApiGatewayApplicationKt" />
+      <item itemvalue="Spring Boot.HrOauthApplication" />
       <item itemvalue="Spring Boot.HrUserApplication" />
       <item itemvalue="Spring Boot.HrConfigServerApplication" />
       <item itemvalue="Spring Boot.HrPayrollApplication" />
@@ -293,11 +329,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'hr-eureka-server'" />
         <item itemvalue="Spring Boot.HrApiGatewayApplication" />
+        <item itemvalue="Gradle.hr-oauth [dependencies]" />
+        <item itemvalue="Gradle.Tests in 'hr-eureka-server'" />
         <item itemvalue="Spring Boot.HrEurekaServerApplication" />
         <item itemvalue="Kotlin.HrApiGatewayApplicationKt" />
-        <item itemvalue="Gradle.hr-api-gateway-zuul [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +349,7 @@
       <workItem from="1668309768924" duration="61000" />
       <workItem from="1668309864002" duration="12989000" />
       <workItem from="1670046007780" duration="4753000" />
-      <workItem from="1670112843838" duration="8839000" />
+      <workItem from="1670112843838" duration="33041000" />
     </task>
     <task id="LOCAL-00001" summary="creating api gateway starter config">
       <created>1668318282947</created>
@@ -462,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670116708044</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="implementing layers and creating oauth server">
+      <created>1670132575198</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670132575198</updated>
+    </task>
+    <task id="LOCAL-00023" summary="hr-oauth with feign client">
+      <created>1670135391794</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670135391794</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,6 +545,8 @@
     <MESSAGE value="creating hr-user" />
     <MESSAGE value="configuring the api gateway and hr-user project" />
     <MESSAGE value="implementing database entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementing database entities" />
+    <MESSAGE value="implementing layers and creating oauth server" />
+    <MESSAGE value="hr-oauth with feign client" />
+    <option name="LAST_COMMIT_MESSAGE" value="hr-oauth with feign client" />
   </component>
 </project>

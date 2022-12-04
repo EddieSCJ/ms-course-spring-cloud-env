@@ -6,8 +6,6 @@ Bhr-payroll/src/main/kotlin/com/hrpayroll/handler/PaymentHandler.kt,d/f/df15201
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-~
-Nhr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/HrApiGatewayApplication.kt,e/3/e39aca68e2791f69ea6cbf91766352aa2889aa67
 €
 Phr-eureka-server/src/main/java/com/hreurekaserver/HrEurekaServerApplication.java,7/6/76758774db6f3d8463a6dcd9f0528f7138e16810
 €
