@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="hr-oauth with feign client">
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="adding resource server and configs to authorization">
       <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/OAuth2AuthenticationManagerAdapter.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/OAuth2Config.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hr-api-gateway/src/main/kotlin/com/hrapigatewayzuul/config/OAuthTokenConverter.kt" afterDir="false" />
@@ -349,7 +349,7 @@
       <workItem from="1668309768924" duration="61000" />
       <workItem from="1668309864002" duration="12989000" />
       <workItem from="1670046007780" duration="4753000" />
-      <workItem from="1670112843838" duration="33041000" />
+      <workItem from="1670112843838" duration="33362000" />
     </task>
     <task id="LOCAL-00001" summary="creating api gateway starter config">
       <created>1668318282947</created>
@@ -512,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670135391794</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="adding resource server and configs to authorization">
+      <created>1670158191366</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670158191366</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,6 +554,7 @@
     <MESSAGE value="implementing database entities" />
     <MESSAGE value="implementing layers and creating oauth server" />
     <MESSAGE value="hr-oauth with feign client" />
-    <option name="LAST_COMMIT_MESSAGE" value="hr-oauth with feign client" />
+    <MESSAGE value="adding resource server and configs to authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding resource server and configs to authorization" />
   </component>
 </project>
