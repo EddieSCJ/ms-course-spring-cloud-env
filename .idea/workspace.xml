@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="adding new submodule">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/kotlin/com/hrworker/handler/WorkerHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/kotlin/com/hrworker/handler/WorkerHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="use username and password for prod making the project &#10;where the config is private">
+      <change afterPath="$PROJECT_DIR$/hr-user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/HrUserApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-user/src/test/kotlin/com/hruser/HrUserApplicationTests.kt" afterDir="false" />
     </list>
-    <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="">
+    <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="ignored">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
@@ -40,6 +45,9 @@
     <projectState path="$PROJECT_DIR$/hr-payroll">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/hr-user">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/hr-worker">
       <ProjectState />
     </projectState>
@@ -60,7 +68,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-worker" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-config-server" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -75,32 +83,13 @@
     <option name="myId2Visible">
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="gke_star-wars-api-kotlin_us-central1_starwars-cluster" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="6" end1="8" start2="6" end2="8" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="9" end1="10" start2="9" end2="12" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="17" end1="17" start2="19" end2="20" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="59" end1="60" start2="62" end2="66" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="64" end1="64" start2="70" end2="71" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="69" end1="69" start2="76" end2="78" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="76" end1="76" start2="85" end2="104" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="105" end1="106" start2="133" end2="136" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="108" end1="109" start2="138" end2="146" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="247" end1="248" start2="284" end2="286" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="298" end1="299" start2="336" end2="372" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-        <range start1="321" end1="321" start2="394" end2="396" changelist="b6625af3-2bda-4820-92bb-00ea564f58a3" />
-        <range start1="322" end1="324" start2="397" end2="400" changelist="e8876dc4-be80-4a85-9e0f-44c361de1d67" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -122,7 +111,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
     "last_opened_file_path": "/Users/edcleidson_junior/IdeaProjects/ms-course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -283,7 +272,8 @@
       <updated>1668309766637</updated>
       <workItem from="1668309768924" duration="61000" />
       <workItem from="1668309864002" duration="12989000" />
-      <workItem from="1670046007780" duration="4140000" />
+      <workItem from="1670046007780" duration="4753000" />
+      <workItem from="1670112843838" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="creating api gateway starter config">
       <created>1668318282947</created>
@@ -369,7 +359,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670048300168</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="using actuator for runtime config refresh">
+      <created>1670050231138</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670050231138</updated>
+    </task>
+    <task id="LOCAL-00014" summary="using actuator for runtime config refresh">
+      <created>1670050364012</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670050364012</updated>
+    </task>
+    <task id="LOCAL-00015" summary="use username and password for prod making the project &#10;where the config is private">
+      <created>1670050426170</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670050426170</updated>
+    </task>
+    <task id="LOCAL-00016" summary="use username and password for prod making the project &#10;where the config is private">
+      <created>1670113067757</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670113067758</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,9 +410,13 @@
     <MESSAGE value="adjusting properties" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add idea path to gitignore" />
+    <MESSAGE value="update hr api gateway config" />
+    <MESSAGE value="hr config configs" />
     <MESSAGE value="add config server module" />
     <MESSAGE value="add configs setup" />
     <MESSAGE value="adding new submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding new submodule" />
+    <MESSAGE value="using actuator for runtime config refresh" />
+    <MESSAGE value="use username and password for prod making the project &#10;where the config is private" />
+    <option name="LAST_COMMIT_MESSAGE" value="use username and password for prod making the project &#10;where the config is private" />
   </component>
 </project>

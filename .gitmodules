@@ -16,3 +16,6 @@
 [submodule "hr-api-gateway"]
 	path = hr-api-gateway
 	url = https://github.com/EddieSCJ/hr-api-gateway
+[submodule "hr-user"]
+	path = hr-user
+	url = https://github.com/EddieSCJ/hr-user.git
