@@ -3,8 +3,6 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="hr-api-gateway" target="11" />
-      <module name="hr-user.main" target="17" />
-      <module name="hr-user.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

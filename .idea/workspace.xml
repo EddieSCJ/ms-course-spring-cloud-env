@@ -4,26 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="use username and password for prod making the project &#10;where the config is private">
-      <change afterPath="$PROJECT_DIR$/hr-user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/HrUserApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-user/src/test/kotlin/com/hruser/HrUserApplicationTests.kt" afterDir="false" />
-    </list>
-    <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="ignored">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="e8876dc4-be80-4a85-9e0f-44c361de1d67" name="Changes" comment="creating hr-user">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/HrUserApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/kotlin/com/hruser/HrUserApplication.kt" afterDir="false" />
     </list>
+    <list id="b6625af3-2bda-4820-92bb-00ea564f58a3" name="ignored" comment="ignored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,10 +57,33 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-config-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hr-user" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1670114672" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1670114671" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/hr-user" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -232,6 +244,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hr-user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hruser.HrUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrWorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="hr-worker.main" />
@@ -244,6 +263,7 @@
       <item itemvalue="Gradle.hr-api-gateway-zuul [build]" />
       <item itemvalue="Gradle.hr-api-gateway-zuul [clean]" />
       <item itemvalue="Kotlin.HrApiGatewayApplicationKt" />
+      <item itemvalue="Spring Boot.HrUserApplication" />
       <item itemvalue="Spring Boot.HrConfigServerApplication" />
       <item itemvalue="Spring Boot.HrApiGatewayZuulApplication" />
       <item itemvalue="Spring Boot.HrPayrollApplication" />
@@ -273,7 +293,7 @@
       <workItem from="1668309768924" duration="61000" />
       <workItem from="1668309864002" duration="12989000" />
       <workItem from="1670046007780" duration="4753000" />
-      <workItem from="1670112843838" duration="1438000" />
+      <workItem from="1670112843838" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="creating api gateway starter config">
       <created>1668318282947</created>
@@ -387,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670113067758</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="creating hr-user">
+      <created>1670114627702</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670114627702</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +444,7 @@
     <MESSAGE value="adding new submodule" />
     <MESSAGE value="using actuator for runtime config refresh" />
     <MESSAGE value="use username and password for prod making the project &#10;where the config is private" />
-    <option name="LAST_COMMIT_MESSAGE" value="use username and password for prod making the project &#10;where the config is private" />
+    <MESSAGE value="creating hr-user" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating hr-user" />
   </component>
 </project>

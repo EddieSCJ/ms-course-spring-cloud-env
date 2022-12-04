@@ -1,8 +1,6 @@
 
 M
 hr-eureka-server/build.gradle,2/b/2bac5160adb5fe94e1c079c9e13ed185068c9f17
-K
-hr-payroll/build.gradle.kts,8/f/8f7949818c02a6a37caa748c1a4d8e8f92fbeebc
 r
 Bhr-payroll/src/main/kotlin/com/hrpayroll/handler/PaymentHandler.kt,d/f/df15201c6648be0ded2bb5bbcab7d9dacf442a35
 :
