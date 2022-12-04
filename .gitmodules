@@ -19,3 +19,6 @@
 [submodule "hr-user"]
 	path = hr-user
 	url = https://github.com/EddieSCJ/hr-user.git
+[submodule "hr-oauth"]
+	path = hr-oauth
+	url = https://github.com/EddieSCJ/hr-oauth.git

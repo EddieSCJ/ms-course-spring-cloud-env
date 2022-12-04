@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/hr-api-gateway" />
     <file type="web" url="file://$PROJECT_DIR$/hr-config-server" />
     <file type="web" url="file://$PROJECT_DIR$/hr-eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/hr-oauth" />
     <file type="web" url="file://$PROJECT_DIR$/hr-payroll" />
     <file type="web" url="file://$PROJECT_DIR$/hr-user" />
     <file type="web" url="file://$PROJECT_DIR$/hr-worker" />

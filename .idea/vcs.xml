@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/hr-api-gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hr-config-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hr-eureka-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hr-oauth" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hr-payroll" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hr-user" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hr-worker" vcs="Git" />
